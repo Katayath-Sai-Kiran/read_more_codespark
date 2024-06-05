@@ -43,8 +43,8 @@ class ReadMoreCodeSpark extends StatelessWidget {
               ),
             ),
             Icon(showMore
-                ? Icons.keyboard_arrow_down_outlined
-                : Icons.keyboard_arrow_up_outlined)
+                ? Icons.keyboard_arrow_up_outlined
+                : Icons.keyboard_arrow_down_outlined)
           ],
         ),
       );
