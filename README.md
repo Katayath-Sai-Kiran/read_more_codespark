@@ -14,7 +14,7 @@ To use `read_more_codespark` in your Flutter project, add the following line to 
 
 ```yaml
 dependencies:
-  read_more_codespark: ^1.0.0 (or any compatible version)
+  read_more_codespark: ^0.0.5 (or any compatible version)
 ```
 
 Then, run `flutter pub get` to install the package.

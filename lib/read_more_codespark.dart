@@ -22,30 +22,33 @@ class ReadMoreCodeSpark extends StatelessWidget {
   Widget build(BuildContext context) {
     bool showMore = false;
     return StatefulBuilder(builder: (context, readMoreState) {
-      return GestureDetector(
-        onTap: () {
-          readMoreState(() {
-            showMore = !showMore;
-          });
-        },
-        child: Row(
-          crossAxisAlignment:
-              showMore ? CrossAxisAlignment.end : CrossAxisAlignment.start,
-          children: [
-            Flexible(
-              child: Text(
-                text,
-                style: textStyle,
-                key: key,
-                locale: locale,
-                maxLines: showMore ? 50 : minLines ?? 2,
-                overflow: textOverflow,
+      return AnimatedSize(
+        duration: const Duration(milliseconds: 500),
+        child: GestureDetector(
+          onTap: () {
+            readMoreState(() {
+              showMore = !showMore;
+            });
+          },
+          child: Row(
+            crossAxisAlignment:
+                showMore ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+            children: [
+              Flexible(
+                child: Text(
+                  text,
+                  style: textStyle,
+                  key: key,
+                  locale: locale,
+                  maxLines: showMore ? 50 : minLines ?? 2,
+                  overflow: textOverflow,
+                ),
               ),
-            ),
-            Icon(showMore
-                ? Icons.keyboard_arrow_up_outlined
-                : Icons.keyboard_arrow_down_outlined)
-          ],
+              Icon(showMore
+                  ? Icons.keyboard_arrow_up_outlined
+                  : Icons.keyboard_arrow_down_outlined)
+            ],
+          ),
         ),
       );
     });

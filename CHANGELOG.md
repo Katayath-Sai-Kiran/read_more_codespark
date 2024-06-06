@@ -17,6 +17,10 @@ Fixed incorrect arrow icon direction: This release addresses an issue where the 
 
 Added MIT Licence
 
+### 0.0.6 (Added Animated Size)
+
+Added animated size to the text to make experience seamless
+
 
 This changelog will be updated with further details for future releases.
 This updated changelog highlights the bug fix you implemented and maintains the information about the initial release. Remember to keep incrementing the version number for future releases and include details about any new features or bug fixes.
