@@ -8,6 +8,19 @@ This package provides a simple and customizable widget, `ReadMoreCodeSpark`, for
 * **Customization:** Control text style, minimum lines displayed, overflow behavior, and locale.
 * **Easy to Use:** Simple widget with minimal configuration required.
 
+## Screenshot
+
+![Screenshot 1](assets/300x650-01.png)
+![Screenshot 2](assets/300x650-02.png)
+![Screenshot 3](assets/300x650-03.png)
+![Screenshot 4](assets/300x650-04.png)
+![Screenshot 5](assets/300x650-05.png)
+![Screenshot 6](assets/300x650-06.png)
+![Screenshot 7](assets/300x650-07.png)
+![Screenshot 8](assets/300x650-08.png)
+
+
+
 ### Installation
 
 To use `read_more_codespark` in your Flutter project, add the following line to your `pubspec.yaml` file:
