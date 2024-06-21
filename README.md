@@ -20,6 +20,13 @@ This package provides a simple and customizable widget, `ReadMoreCodeSpark`, for
 ![Screenshot 8](assets/300x650-08.png) -->
 
 <img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-01.png" alt="Screenshot 1" width="200"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-02.png" alt="Screenshot 1" width="200"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-03.png" alt="Screenshot 1" width="200"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-04.png" alt="Screenshot 1" width="200"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-05.png" alt="Screenshot 1" width="200"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-06.png" alt="Screenshot 1" width="200"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-07.png" alt="Screenshot 1" width="200"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-08.png" alt="Screenshot 1" width="200"/>
 
 
 
