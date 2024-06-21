@@ -19,7 +19,7 @@ This package provides a simple and customizable widget, `ReadMoreCodeSpark`, for
 ![Screenshot 7](assets/300x650-07.png)
 ![Screenshot 8](assets/300x650-08.png) -->
 
-<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-01.png" alt="Screenshot 1" width="300"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-01.png" alt="Screenshot 1" width="200"/>
 
 
 
