@@ -1,6 +1,6 @@
 name: read_more_codespark
 description: "Tired of truncated text? read_more_codespark offers a simple and customizable solution for displaying expandable text in your Flutter projects."
-version: 0.0.6
+version: 0.0.8
 homepage: https://github.com/Katayath-Sai-Kiran/read_more_codespark.git
 
 environment:

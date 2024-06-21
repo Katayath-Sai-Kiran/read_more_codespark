@@ -5,6 +5,12 @@ This is the first public release of the read_more_codespark package.
 Introduces the ReadMoreCodeSpark widget for displaying expandable text in Flutter applications.
 Offers customization options for text style, minimum lines displayed, overflow behavior, and locale.
 Additional Notes:
+### 0.0.8 (Added Screenshots)
+
+Added the screenshots of the functioning of the dropdown.
+### 0.0.7 (Added Screenshots)
+
+Added the screenshots of the functioning of the dropdown.
 
 ### 0.0.3 (Bug Fix)
 

@@ -10,14 +10,17 @@ This package provides a simple and customizable widget, `ReadMoreCodeSpark`, for
 
 ## Screenshot
 
-![Screenshot 1](assets/300x650-01.png)
+<!-- ![Screenshot 1](assets/300x650-01.png)
 ![Screenshot 2](assets/300x650-02.png)
 ![Screenshot 3](assets/300x650-03.png)
 ![Screenshot 4](assets/300x650-04.png)
 ![Screenshot 5](assets/300x650-05.png)
 ![Screenshot 6](assets/300x650-06.png)
 ![Screenshot 7](assets/300x650-07.png)
-![Screenshot 8](assets/300x650-08.png)
+![Screenshot 8](assets/300x650-08.png) -->
+
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-01.png" alt="Screenshot 1" width="300"/>
+
 
 
 
