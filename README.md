@@ -1,6 +1,5 @@
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/banner.png" alt="Banner"/>
 
-
-![oaicite:1](https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/banner.png)([Medium][1])
 
 # 📖 read\_more\_codespark
 
@@ -77,7 +76,6 @@ class MyApp extends StatelessWidget {
 
 
 
----
 
 ## 📷 Screenshots
 <img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-01.png" alt="Read More" width="150"/>
@@ -105,7 +103,7 @@ class MyApp extends StatelessWidget {
 | `animated`          | Whether to animate the expansion/collapse.    | `true`                        |                                                                                            |
 | `animationDuration` | Duration of the animation.                    | `Duration(milliseconds: 100)` |                                                                                            |
 | `animationType`     | Type of animation (`size` or `crossFade`).    | `AnimationType.size`          |                                                                                            |
-| `onToggle`          | Callback when the toggle state changes.       | `null`                        | ([Medium][1], [Dart packages][5], [Dart packages][2], [Medium][6], [GitHub][7], [Dart][8]) |
+| `onToggle`          | Callback when the toggle state changes.       | `null`                        | 
 
 ---
 
@@ -121,19 +119,15 @@ flutter run
 
 
 
----
-
 ## 📝 Changelog
 
 All notable changes to this project will be documented in the [CHANGELOG.md](https://github.com/Katayath-Sai-Kiran/read_more_codespark/main/CHANGELOG.md) file.
 
----
 
 ## 🐛 Issues & Feedback
 
 If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/Katayath-Sai-Kiran/read_more_codespark/issues) on GitHub. Contributions are welcome!
 
----
 
 ## 👨‍💻 Maintainer
 
