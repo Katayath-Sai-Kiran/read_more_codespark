@@ -53,7 +53,6 @@ class _SimpleReadMoreTextState extends State<SimpleReadMoreText> {
       text: TextSpan(text: widget.text, style: widget.style),
       maxLines: _expanded ? null : widget.trimLines,
       textDirection: Directionality.of(context),
-
       textAlign: widget.textAlign,
       locale: widget.locale,
       textScaleFactor: MediaQuery.of(context).textScaleFactor,
@@ -98,10 +97,9 @@ class _SimpleReadMoreTextState extends State<SimpleReadMoreText> {
               animatedText = AnimatedCrossFade(
                 firstChild: textWidget,
                 secondChild: textWidget,
-                crossFadeState:
-                    _expanded
-                        ? CrossFadeState.showSecond
-                        : CrossFadeState.showFirst,
+                crossFadeState: _expanded
+                    ? CrossFadeState.showSecond
+                    : CrossFadeState.showFirst,
                 duration: widget.animationDuration,
                 firstCurve: Curves.easeInOut,
                 secondCurve: Curves.easeInOut,
@@ -134,18 +132,16 @@ class _SimpleReadMoreTextState extends State<SimpleReadMoreText> {
                   children: [
                     Text(
                       _expanded ? widget.readLessText : widget.readMoreText,
-                      style:
-                          _expanded
-                              ? widget.readLessStyle
-                              : widget.readMoreStyle,
+                      style: _expanded
+                          ? widget.readLessStyle
+                          : widget.readMoreStyle,
                     ),
                     if (widget.iconToggle)
                       Icon(
                         _expanded
                             ? Icons.keyboard_arrow_up_rounded
                             : Icons.keyboard_arrow_down_rounded,
-                        color:
-                            widget.iconColor ??
+                        color: widget.iconColor ??
                             Theme.of(context).iconTheme.color,
                         size: 20,
                       ),
