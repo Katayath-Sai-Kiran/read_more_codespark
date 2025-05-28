@@ -1,39 +1,82 @@
-### 0.0.1 (Initial Release)
 
-Initial Release
-This is the first public release of the read_more_codespark package.
-Introduces the ReadMoreCodeSpark widget for displaying expandable text in Flutter applications.
-Offers customization options for text style, minimum lines displayed, overflow behavior, and locale.
-Additional Notes:
-### 0.0.10 (Added Screenshots)
+## 📦 Changelog
 
-Added the screenshots of the functioning of the dropdown.
-### 0.0.9git a (Added Screenshots)
+### \[0.0.11] - (Enhanced Functionality and UI Improvements)
 
-Added the screenshots of the functioning of the dropdown.
-### 0.0.8 (Added Screenshots)
+* Added support for **toggle icons** with customizable colors.
+* Introduced **`onToggle` callback** to detect expand/collapse state.
+* Added **animation type selection**: `size` and `crossFade`.
+* Enhanced **customization options** for text styles, toggle labels, and alignment.
+* Updated `README.md` with comprehensive documentation and usage guide.
+* Added new **package banner and multiple screenshots** to showcase functionality.
+* Improved **pubspec metadata** for better SEO and discoverability.
 
-Added the screenshots of the functioning of the dropdown.
-### 0.0.7 (Added Screenshots)
+---
 
-Added the screenshots of the functioning of the dropdown.
+### \[0.0.10] - (Updated Screenshots)
 
-### 0.0.3 (Bug Fix)
+* Added updated screenshots of the `ReadMoreCodeSpark` widget in action.
 
-Fixed incorrect arrow icon direction: This release addresses an issue where the arrow icon indicating expandable text was displaying in the wrong direction. Now, the icon accurately reflects the state of the text (downward for expanded, upward for collapsed).
-0.0.2 (Initial Release)
+---
 
-### 0.0.4 (Added Licence)
+### \[0.0.9] - (Updated Screenshots)
 
-### 0.0.5 (Added MIT Licence)
+* Replaced previous screenshots with more refined versions.
 
-Added MIT Licence
+---
 
-### 0.0.6 (Added Animated Size)
+### \[0.0.8] - (Added Screenshots)
 
-Added animated size to the text to make experience seamless
+* Added initial screenshots to demonstrate widget functionality.
 
+---
 
-This changelog will be updated with further details for future releases.
-This updated changelog highlights the bug fix you implemented and maintains the information about the initial release. Remember to keep incrementing the version number for future releases and include details about any new features or bug fixes.
+### \[0.0.7] - (Visual Documentation)
+
+* Introduced screenshots showcasing expanded/collapsed states.
+
+---
+
+### \[0.0.6] - (Animated Size Support)
+
+* Integrated **animated size transition** for a smoother expansion/collapse experience.
+
+---
+
+### \[0.0.5] - (Added MIT License)
+
+* Officially included the **MIT License** for the package.
+
+---
+
+### \[0.0.4] - (License Included)
+
+* Added license file to the repository.
+
+---
+
+### \[0.0.3] - (Bug Fix: Arrow Icon Direction)
+
+* Fixed issue with arrow icon direction not updating correctly.
+* Icon now accurately reflects text state (downward for expanded, upward for collapsed).
+
+---
+
+### \[0.0.2] - (Minor Fixes)
+
+* Internal cleanup and minor enhancements.
+
+---
+
+### \[0.0.1] - (Initial Release)
+
+* First public release of `read_more_codespark`.
+* Introduced the `ReadMoreCodeSpark` widget for displaying expandable text.
+* Included customization options for:
+
+  * Text style
+  * Minimum lines before truncation
+  * Overflow behavior
+  * Locale support
+
 
