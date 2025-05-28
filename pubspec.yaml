@@ -18,4 +18,20 @@ dev_dependencies:
 
 flutter:
 
+screenshots:
+
+  - path: assets/300x650-01.png
+    description: Initial Text
+    width: 300
+
+  - path: assets/300x650-02.png
+    description: Expanded Text
+    width: 300
+
+  - path: assets/300x650-03.png
+    description: Sample Code
+    width: 300
+
+
+
   

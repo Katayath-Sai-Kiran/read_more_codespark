@@ -80,10 +80,9 @@ class MyApp extends StatelessWidget {
 ---
 
 ## 📷 Screenshots
-
-![oaicite:34](https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/screenshots/screenshot1.png)
-![oaicite:35](https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/screenshots/screenshot2.png)
-![oaicite:36](https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/screenshots/screenshot3.png)([Dart packages][2], [Dart packages][3], [GitHub][4])
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-01.png" alt="Read More" width="150"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-02.png" alt="Read Less" width="150"/>
+<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-03.png" alt="Code" width="300"/>
 
 ---
 
