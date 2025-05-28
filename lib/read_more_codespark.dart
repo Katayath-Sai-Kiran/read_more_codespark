@@ -1,23 +1,57 @@
 import 'package:flutter/material.dart';
 
+/// Defines the types of animations supported by [SimpleReadMoreText].
 enum AnimationType { size, crossFade }
 
+/// A widget that displays a truncated version of a long text and provides
+/// an expandable/collapsible toggle for reading more or less.
 class SimpleReadMoreText extends StatefulWidget {
+  /// The text to display.
   final String text;
+
+  /// Style of the main text.
   final TextStyle? style;
+
+  /// Number of lines to show before truncation.
   final int trimLines;
+
+  /// The label for expanding the text.
   final String readMoreText;
+
+  /// The label for collapsing the text.
   final String readLessText;
+
+  /// Style of the "read more" label.
   final TextStyle? readMoreStyle;
+
+  /// Style of the "read less" label.
   final TextStyle? readLessStyle;
+
+  /// Text alignment.
   final TextAlign textAlign;
+
+  /// How overflowed text is handled.
   final TextOverflow textOverflow;
+
+  /// Optional locale for text rendering.
   final Locale? locale;
+
+  /// Whether to show a toggle icon (arrow).
   final bool iconToggle;
+
+  /// Color of the toggle icon.
   final Color? iconColor;
+
+  /// Enables/disables animation when expanding/collapsing.
   final bool animated;
+
+  /// Duration of the animation.
   final Duration animationDuration;
+
+  /// Type of animation to use.
   final AnimationType animationType;
+
+  /// Callback when the expand/collapse state changes.
   final ValueChanged<bool>? onToggle;
 
   const SimpleReadMoreText({
@@ -45,9 +79,13 @@ class SimpleReadMoreText extends StatefulWidget {
 }
 
 class _SimpleReadMoreTextState extends State<SimpleReadMoreText> {
+  /// Tracks whether the text is expanded or collapsed.
   bool _expanded = false;
+
+  /// Tracks whether the text has overflowed beyond trimLines.
   bool _hasOverflow = false;
 
+  /// Checks if the text exceeds the specified trimLines.
   void _checkOverflow(double maxWidth) {
     final textPainter = TextPainter(
       text: TextSpan(text: widget.text, style: widget.style),
@@ -60,11 +98,13 @@ class _SimpleReadMoreTextState extends State<SimpleReadMoreText> {
 
     final didOverflow = textPainter.didExceedMaxLines;
 
+    // Only update if the overflow state changed
     if (didOverflow != _hasOverflow) {
       setState(() => _hasOverflow = didOverflow);
     }
   }
 
+  /// Toggles the expanded/collapsed state.
   void _toggle() {
     setState(() => _expanded = !_expanded);
     widget.onToggle?.call(_expanded);
@@ -74,7 +114,7 @@ class _SimpleReadMoreTextState extends State<SimpleReadMoreText> {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (_, constraints) {
-        // ✅ Only check for overflow when collapsed
+        // ✅ Check for text overflow only when collapsed
         if (!_expanded && mounted) {
           WidgetsBinding.instance.addPostFrameCallback((_) {
             _checkOverflow(constraints.maxWidth);
@@ -90,6 +130,7 @@ class _SimpleReadMoreTextState extends State<SimpleReadMoreText> {
           locale: widget.locale,
         );
 
+        // Wrap the text with animation if enabled
         Widget animatedText;
         if (widget.animated) {
           switch (widget.animationType) {

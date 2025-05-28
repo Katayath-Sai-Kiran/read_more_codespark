@@ -80,27 +80,26 @@ class MyApp extends StatelessWidget {
 ## 📷 Screenshots
 <img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-01.png" alt="Read More" width="150"/>
 <img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-02.png" alt="Read Less" width="150"/>
-<img src="https://raw.githubusercontent.com/Katayath-Sai-Kiran/read_more_codespark/main/assets/300x650-03.png" alt="Code" width="300"/>
 
 ---
 
 ## 🛠️ Parameters
 
-| Parameter           | Description                                   | Default                       |                                                                                            |
+| Parameter           | Description                                   | Default                       |                                                                                            
 | ------------------- | --------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------ |
-| `text`              | The text content to display.                  | —                             |                                                                                            |
-| `textStyle`         | Style for the main text.                      | `null`                        |                                                                                            |
-| `maxLines`          | Number of lines to display before truncation. | `2`                           |                                                                                            |
+| `text`              | The text content to display.                  | —                             |                                                                                            
+| `textStyle`         | Style for the main text.                      | `null`                        |                                                                                            
+| `maxLines`          | Number of lines to display before truncation. | `2`                           |                                                                                            
 | `readMoreText`      | Text for the "Read more" link.                | `'Read more'`                 |                                                                                            |
 | `readLessText`      | Text for the "Read less" link.                | `'Read less'`                 |                                                                                            |
-| `readMoreStyle`     | Style for the "Read more" text.               | `null`                        |                                                                                            |
-| `readLessStyle`     | Style for the "Read less" text.               | `null`                        |                                                                                            |
+| `readMoreStyle`     | Style for the "Read more" text.               | `null`                        |                                                                                            
+| `readLessStyle`     | Style for the "Read less" text.               | `null`                        |                                                                                            
 | `textAlign`         | Alignment of the text.                        | `TextAlign.start`             |                                                                                            |
 | `textOverflow`      | Overflow behavior of the text.                | `TextOverflow.ellipsis`       |                                                                                            |
-| `locale`            | Locale for the text.                          | `null`                        |                                                                                            |
-| `iconToggle`        | Whether to show toggle icons.                 | `true`                        |                                                                                            |
-| `iconColor`         | Color of the toggle icons.                    | `null`                        |                                                                                            |
-| `animated`          | Whether to animate the expansion/collapse.    | `true`                        |                                                                                            |
+| `locale`            | Locale for the text.                          | `null`                        |                                                                                           
+| `iconToggle`        | Whether to show toggle icons.                 | `true`                        |                                                                                            
+| `iconColor`         | Color of the toggle icons.                    | `null`                        |                                                                                            
+| `animated`          | Whether to animate the expansion/collapse.    | `true`                        |                                                                                            
 | `animationDuration` | Duration of the animation.                    | `Duration(milliseconds: 100)` |                                                                                            |
 | `animationType`     | Type of animation (`size` or `crossFade`).    | `AnimationType.size`          |                                                                                            |
 | `onToggle`          | Callback when the toggle state changes.       | `null`                        | 
